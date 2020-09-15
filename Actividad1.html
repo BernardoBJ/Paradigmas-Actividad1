@@ -28,13 +28,24 @@
             background-color: lightblue;
         }
 
+        img {
+            width: 100px;
+        }
+
+        p {
+            margin: 0;
+        }
+
         .rojo {
             background-color: red;
-            color: white;
         }
 
         .verde {
             background-color: green;
+            color: white;
+        }
+
+        .letrablanca {
             color: white;
         }
 
@@ -49,26 +60,45 @@
         .text-center {
             text-align: center;
         }
+
+        .pull-right {
+            position: absolute;
+            right: 0px;
+        }
     </style>
 </head>
 
 <body>
+    <!-- Titulos -->
     <h2 class="text-center">Bernardo Alfonso Borunda Jaquez - 314788</h2>
     <h3 class="text-center">Paradigmas de programacion - Actividad 1</h3>
-    1. Por medio de una tabla html crear su horario de clases. <br>
-    2. Los días que tengan clases tendrán el color verde. <br>
-    3. Los días que no tengan clases tendrán el color gris <br>
-    4. Los días que tengan la materia de paradigmas de programación tendrán el color rojo <br>
-    5. Al hacer click sobre el la materia "paradigmas de programación" deberá de abrir otra pagina "detalle.html" la
-    cual mostrará información sobre la materia.<br>
-    6. Agregar los logos de la facultad de ingeniería y de la UACH <br>
-    7. Al hacer click sobre los logos debera de abrir las paginas correspondientes. <br>
-    8. Crear repositorio de github, con al menos dos commits en master y dos en test <br>
-    9. Crear el merge entre master y test <br>
-    10. Compartir el link del repositorio github (github..../acvividad1) <br>
+
+    <!-- Instrucciones -->
+    <p>1. Por medio de una tabla html crear su horario de clases. </p>
+    <p>2. Los días que tengan clases tendrán el color verde. </p>
+    <p>3. Los días que no tengan clases tendrán el color gris </p>
+    <p>4. Los días que tengan la materia de paradigmas de programación tendrán el color rojo </p>
+    <p>5. Al hacer click sobre el la materia "paradigmas de programación" deberá de abrir otra pagina "detalle.html" la
+        cual mostrará información sobre la materia. </p>
+    <p>6. Agregar los logos de la facultad de ingeniería y de la UACH </p>
+    <p>7. Al hacer click sobre los logos debera de abrir las paginas correspondientes. </p>
+    <p>8. Crear repositorio de github, con al menos dos commits en master y dos en test </p>
+    <p>9. Crear el merge entre master y test </p>
+    <p>10. Compartir el link del repositorio github (github..../acvividad1) </p>
 
     <br>
 
+    <!-- Imagenes -->
+    <a href="https://uach.mx">
+        <img src="imges/logouach.png" alt="Logo UACH">
+    </a>
+    <a href="http://fing.uach.mx" class="pull-right">
+        <img src="imges/logofing.png" alt="Logo FING UACH">
+    </a>
+
+    <br><br>
+
+    <!-- Horario -->
     <table style="width: 100%;">
         <thead>
             <tr>
@@ -109,16 +139,32 @@
                 <td class="azul">10:00 - 11:00</td>
                 <td class="verde">Investigacion de operaciones I</td> <!-- Lunes -->
                 <td class="verde">Investigacion de operaciones I</td> <!-- Martes -->
-                <td class="rojo">Paradigmas de programacion</td> <!-- Miercoles -->
-                <td class="rojo">Paradigmas de programacion</td> <!-- Jueves -->
+                <td class="rojo">
+                    <a href="detalle.html" class="letrablanca">
+                        Paradigmas de programacion
+                    </a>
+                </td> <!-- Miercoles -->
+                <td class="rojo">
+                    <a href="detalle.html" class="letrablanca">
+                        Paradigmas de programacion
+                    </a>
+                </td> <!-- Jueves -->
                 <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
                 <td class="azul">11:00 - 12:00</td>
                 <td class="verde">Ingles avanzado II</td> <!-- Lunes -->
                 <td class="verde">Desarrollo basado en plataformas</td> <!-- Martes -->
-                <td class="rojo">Paradigmas de programacion</td> <!-- Miercoles -->
-                <td class="rojo">Paradigmas de programacion</td> <!-- Jueves -->
+                <td class="rojo">
+                    <a href="detalle.html" class="letrablanca">
+                        Paradigmas de programacion
+                    </a>
+                </td> <!-- Miercoles -->
+                <td class="rojo">
+                    <a href="detalle.html" class="letrablanca">
+                        Paradigmas de programacion
+                    </a>
+                </td> <!-- Jueves -->
                 <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
