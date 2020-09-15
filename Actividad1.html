@@ -6,24 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 1</title>
     <style>
+        table {
+            border-collapse: collapse;
+        }
+
         th,
         td {
             border: solid 1px black;
             padding: 0
         }
 
-        table {
-            border-collapse: collapse;
+        td {
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
 
-        .colHora {
+        th {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: lightblue;
+        }
+
+        .rojo {
+            background-color: red;
+            color: white;
+        }
+
+        .verde {
+            background-color: green;
+            color: white;
+        }
+
+        .gris {
+            background-color: gray;
+        }
+
+        .azul {
+            background-color: lightblue;
+        }
+
+        .text-center {
             text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <h2>Bernardo Alfonso Borunda Jaquez - 314788</h2>
+    <h2 class="text-center">Bernardo Alfonso Borunda Jaquez - 314788</h2>
+    <h3 class="text-center">Paradigmas de programacion - Actividad 1</h3>
     1. Por medio de una tabla html crear su horario de clases. <br>
     2. Los días que tengan clases tendrán el color verde. <br>
     3. Los días que no tengan clases tendrán el color gris <br>
@@ -51,116 +82,116 @@
         </thead>
         <tbody>
             <tr>
-                <td class="colHora">07:00 - 08:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">07:00 - 08:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="verde">Seguridad de la informacion</td> <!-- Miercoles -->
+                <td class="verde">Big Data</td> <!-- Jueves -->
+                <td class="verde">Big Data</td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">08:00 - 09:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">08:00 - 09:00</td>
+                <td class="verde">Derecho informatico</td> <!-- Lunes -->
+                <td class="verde">Seguridad de la informacion</td> <!-- Martes -->
+                <td class="verde">Seguridad de la informacion</td> <!-- Miercoles -->
+                <td class="verde">Derecho informatico</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">09:00 - 10:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">09:00 - 10:00</td>
+                <td class="verde">Investigacion de operaciones I</td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="verde">Investigacion de operaciones I</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">10:00 - 11:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">10:00 - 11:00</td>
+                <td class="verde">Investigacion de operaciones I</td> <!-- Lunes -->
+                <td class="verde">Investigacion de operaciones I</td> <!-- Martes -->
+                <td class="rojo">Paradigmas de programacion</td> <!-- Miercoles -->
+                <td class="rojo">Paradigmas de programacion</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">11:00 - 12:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">11:00 - 12:00</td>
+                <td class="verde">Ingles avanzado II</td> <!-- Lunes -->
+                <td class="verde">Desarrollo basado en plataformas</td> <!-- Martes -->
+                <td class="rojo">Paradigmas de programacion</td> <!-- Miercoles -->
+                <td class="rojo">Paradigmas de programacion</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">12:00 - 13:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">12:00 - 13:00</td>
+                <td class="verde">Desarrollo basado en plataformas</td> <!-- Lunes -->
+                <td class="verde">Sistemas de busqueda y razonamiento</td> <!-- Martes -->
+                <td class="verde">Desarrollo basado en plataformas</td> <!-- Miercoles -->
+                <td class="verde">Desarrollo basado en plataformas</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">13:00 - 14:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">13:00 - 14:00</td>
+                <td class="verde">Sistemas de busqueda y razonamiento</td> <!-- Lunes -->
+                <td class="verde">Sistemas de busqueda y razonamiento</td> <!-- Martes -->
+                <td class="verde">Sistemas de busqueda y razonamiento</td> <!-- Miercoles -->
+                <td class="verde">Ingles avanzado II</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">14:00 - 15:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">14:00 - 15:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="verde">Ingles avanzado II</td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="verde">Ingles avanzado II</td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">15:00 - 16:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">15:00 - 16:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">16:00 - 17:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">16:00 - 17:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">17:00 - 18:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">17:00 - 18:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">18:00 - 19:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">18:00 - 19:00</td>
+                <td class="verde">Bases de datos avanzadas</td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="verde">Bases de datos avanzadas</td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">19:00 - 20:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">19:00 - 20:00</td>
+                <td class="verde">Bases de datos avanzadas</td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="verde">Bases de datos avanzadas</td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
             <tr>
-                <td class="colHora">20:00 - 21:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="azul">20:00 - 21:00</td>
+                <td class="gris"></td> <!-- Lunes -->
+                <td class="gris"></td> <!-- Martes -->
+                <td class="gris"></td> <!-- Miercoles -->
+                <td class="gris"></td> <!-- Jueves -->
+                <td class="gris"></td> <!-- Viernes -->
             </tr>
         </tbody>
     </table>
